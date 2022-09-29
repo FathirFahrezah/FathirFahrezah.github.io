@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+/* Bagian Header */
+
+header {
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("E:\\WEB JOKI\\PATIR\\assets\\pexels-roberto-nickson-7238759.jpg");
+    width: 100%;
+    height: 45em;
+    background-size: cover;
+    align-items: center;
+    margin-top: -1em;
+}
+
+nav {
+    position: sticky;
+}
+
+nav a {
+    
+    color: #F7ECDE;
+    text-decoration: none;
+}
+
+.nav1 {
+    flex: 1;
+    text-align: center;
+}
+
+.nav1 li {
+    font-family: 'Courier Prime', monospace;
+    z-index: 1;
+    font-size: 18px;
+    display: inline;
+    list-style: none;
+    padding: 10px 25px;
+    border-style: solid;
+    margin: 10px;
+    border-width: thin;
+    border-color: #F7ECDE;
+    text-decoration: none;
+
+    /* Bagian Hover */
+    box-shadow: inset 0 0 0 0 #54BAB9   ;
+	transition: linear 0.3s;
+	outline: none;
+}
+
+.nav1 li:hover {
+    box-shadow: inset 450px 0 0 0 #54BAB9  ;
+	cursor: pointer;
+}
+
+.nav2 {
+    flex: 1;
+    text-align: center;
+}
+
+.nav2 li {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    display: inline;
+    list-style: none;
+    padding: 10px 25px;
+    border-style: solid;
+    margin: 10px;
+    color: #F7ECDE;
+    border-width: thin;
+    border-color: #F7ECDE;
+    /* Bagian Hover */
+    box-shadow: inset 0 0 0 0 #54BAB9   ;
+	transition: linear 0.3s;
+	outline: none;
+}
+
+.nav2 li:hover {
+    box-shadow: inset 450px 0 0 0 #54BAB9  ;
+	cursor: pointer;
+}
+
+.nav2 ul {
+    margin-left: -9em;
+}
+
+.flexTengah {
+    flex: 1;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #E9DAC1;
+}
+
+.paragraphTengah1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -30px;
+    color: #F7ECDE;
+}
+
+.paragraphTengah2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #003B3A;
+    width: 200px;
+    margin: -15px auto;
+    color: #F7ECDE;
+}
+
+
+/* --------------------------------------------------------------- */
+
+/* Float four columns side by side */
+main {
+    padding: 20px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin: 0 0 50px 0;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+  }
+
+  img {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+ .judul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #003B3A;
+    font-size: 30px;
+ }
+
+ .cardProfile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: white;
+    background-color: #003B3A;
+    text-align: center;
+    font-weight: normal;
+ }
